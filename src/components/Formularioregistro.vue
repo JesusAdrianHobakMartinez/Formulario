@@ -52,9 +52,23 @@
         <div v-if="formSubmitted">
           <h3>Form Submitted</h3>
           <p>Nombre: {{ name }}</p>
-          <p>Apellidos: {{ apellidos }}</p>
-          <p>Motivasion: {{ motivasion }}</p>
-          <p>Sexo: {{ sexo }}</p>
+          <p>Edad: {{ edad }}</p>
+          <p>estado Civil: {{estadocivil }}</p>
+          <p>trabajo: {{trabajo }}</p>
+          <p>recidencia: {{recidencia }}</p>
+          <p>Cita: {{ cita }}</p>
+          <p>citaautor: {{citaautor }}</p>
+          <p>Bio: {{ bio }}</p>
+          <p>personalidad1: {{ personalidad1 }}</p>
+          <p>personalidad2: {{ personalidad2 }}</p>
+          <p>personalidad3: {{ personalidad3 }}</p>
+          <p>personalidad4: {{ personalidad4 }}</p>
+          <p>objetivos: {{ objetivos }}</p>
+          <p>frustaciones: {{ frustaciones }}</p>
+          <p>motivaciones: {{ motivaciones }}</p>
+          <p>marcas: {{ marcas }}</p>
+          <p>sexo: {{ sexo }}</p>        
+          
           <small>Click on run to launch the app again.</small>
         </div>
       </div>
@@ -78,6 +92,7 @@
             objetivos:"",
             frustaciones:"",
             motivaciones:"value",
+            marcas:"",
             sexo: "",
             formSubmitted: false
           };
